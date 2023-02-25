@@ -1,4 +1,4 @@
-package ImperativeVSDeclarative;
+package A_ImperativeVSDeclarative;
 
 import java.util.stream.IntStream;
 
