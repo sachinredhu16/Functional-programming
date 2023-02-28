@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A_ImperativeVSDeclarative/UniqueList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B_Lamdbas/ComparatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B_Lamdbas/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/A_Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/B_BiConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/C_Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/D_ConsumePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/StudentDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/B_Lamdbas/LambdaVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/E_Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/F_BiFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/G_UnaryOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/H_BinaryOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/I_Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D_MethodReference/ConsumerMethodInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D_MethodReference/FunctionMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D_MethodReference/RefactorMethodReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E_ConstructorReference/ConstructorReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/A_Stream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImperativeVSDeclarative/SumOfRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_ImperativeVSDeclarative/SumOfRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,25 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Java DSA/Functional-programming/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java DSA/my-school&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.D_ConsumePredicate">
-    <configuration name="A_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C_Functional_Interfaces.A_Consumer" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="A_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.A_Stream" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C_Functional_Interfaces.*" />
+          <option name="PATTERN" value="F_Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_BiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C_Functional_Interfaces.B_BiConsumer" />
+    <configuration name="ConstructorReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E_ConstructorReference.ConstructorReference" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C_Functional_Interfaces.*" />
+          <option name="PATTERN" value="E_ConstructorReference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C_Functional_Interfaces.C_Predicate" />
+    <configuration name="ConsumerMethodInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D_MethodReference.ConsumerMethodInterface" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C_Functional_Interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D_ConsumePredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C_Functional_Interfaces.D_ConsumePredicate" />
-      <module name="Functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="C_Functional_Interfaces.*" />
+          <option name="PATTERN" value="D_MethodReference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RefactorMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D_MethodReference.RefactorMethodReference" />
+      <module name="Functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="D_MethodReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D_ConsumePredicate" />
-        <item itemvalue="Application.C_Predicate" />
-        <item itemvalue="Application.A_Consumer" />
-        <item itemvalue="Application.B_BiConsumer" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.A_Stream" />
+        <item itemvalue="Application.ConstructorReference" />
+        <item itemvalue="Application.RefactorMethodReference" />
+        <item itemvalue="Application.ConsumerMethodInterface" />
       </list>
     </recent_temporary>
   </component>
