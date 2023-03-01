@@ -30,5 +30,13 @@ public class A_Stream {
                 .collect(Collectors.toMap(Student::getName,Student::getActivities));
 
         System.out.println(map);
+
+        /*
+        Streams Api has two types of operation:-
+        1. Intermediate operation eg. filter in above
+        2. Terminal Operation eg. collect in above
+
+        NOTE: streams is lazy i.e. no operation is invoked until terminal op. is invoked
+         */
     }
 }

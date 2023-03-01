@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/B_Lamdbas/LambdaVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/E_Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/F_BiFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/G_UnaryOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/H_BinaryOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C_Functional_Interfaces/I_Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D_MethodReference/ConsumerMethodInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D_MethodReference/FunctionMethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D_MethodReference/RefactorMethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E_ConstructorReference/ConstructorReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_Streams/A_Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/B_StreamsMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/C_StreamFlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/DebugStreamAPi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_Streams/A_Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/A_Stream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +47,35 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.C_StreamFlatMap">
     <configuration name="A_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="F_Streams.A_Stream" />
+      <module name="Functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="F_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B_StreamsMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.B_StreamsMap" />
+      <module name="Functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="F_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C_StreamFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.C_StreamFlatMap" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
@@ -82,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerMethodInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D_MethodReference.ConsumerMethodInterface" />
-      <module name="Functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="D_MethodReference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Functional-programming" />
@@ -102,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefactorMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D_MethodReference.RefactorMethodReference" />
-      <module name="Functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="D_MethodReference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C_StreamFlatMap" />
+        <item itemvalue="Application.B_StreamsMap" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.A_Stream" />
         <item itemvalue="Application.ConstructorReference" />
-        <item itemvalue="Application.RefactorMethodReference" />
-        <item itemvalue="Application.ConsumerMethodInterface" />
       </list>
     </recent_temporary>
   </component>
