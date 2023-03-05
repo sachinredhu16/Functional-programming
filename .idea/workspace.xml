@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarksViewState">
+    <option name="groupLineBookmarks" value="false" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/F_Streams/B_StreamsMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_Streams/C_StreamFlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/F_Streams/DebugStreamAPi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/D_SortedStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/E_Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/F_Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/G_MapFilterReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/H_MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/I_LimitSkip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/J_Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/F_Streams/K_FindFirstAny.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/F_Streams/A_Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/A_Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_Streams/B_StreamsMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/B_StreamsMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_Streams/DebugStreamAPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/DebugStreamAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java DSA/my-school&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Java DSA/my-school"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C_StreamFlatMap">
-    <configuration name="A_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="F_Streams.A_Stream" />
+  <component name="RunManager" selected="Application.K_FindFirstAny">
+    <configuration name="G_MapFilterReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.G_MapFilterReduce" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_StreamsMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="F_Streams.B_StreamsMap" />
+    <configuration name="H_MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.H_MinMax" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_StreamFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="F_Streams.C_StreamFlatMap" />
+    <configuration name="I_LimitSkip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.I_LimitSkip" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E_ConstructorReference.ConstructorReference" />
+    <configuration name="J_Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.J_Match" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E_ConstructorReference.*" />
+          <option name="PATTERN" value="F_Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,20 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="K_FindFirstAny" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F_Streams.K_FindFirstAny" />
       <module name="Functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="F_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C_StreamFlatMap" />
-        <item itemvalue="Application.B_StreamsMap" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.A_Stream" />
-        <item itemvalue="Application.ConstructorReference" />
+        <item itemvalue="Application.K_FindFirstAny" />
+        <item itemvalue="Application.J_Match" />
+        <item itemvalue="Application.I_LimitSkip" />
+        <item itemvalue="Application.H_MinMax" />
+        <item itemvalue="Application.G_MapFilterReduce" />
       </list>
     </recent_temporary>
   </component>

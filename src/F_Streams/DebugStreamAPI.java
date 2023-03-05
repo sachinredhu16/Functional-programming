@@ -3,12 +3,11 @@ package F_Streams;
 import data.Student;
 import data.StudentDataBase;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class DebugStreamAPi {
+public class DebugStreamAPI {
     public static void main(String[] args) {
         // we can debug the stream using peek operation
         // stream pick one element and do all intermediate operation on it and then pick next .
