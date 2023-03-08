@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/A_Joining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/B_Counting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/C_Mapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/D_MaxByMinBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/E_SummingAveraging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/ArrayCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/ConvertIntoBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +48,9 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.F_Grouping">
-    <configuration name="B_Counting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_TerminalOperations.B_Counting" />
+  <component name="RunManager" selected="Application.ConvertIntoBinary">
+    <configuration name="C_Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I_TerminalOperations.C_Mapping" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_TerminalOperations.C_Mapping" />
+    <configuration name="ConvertIntoBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Questions.ConvertIntoBinary" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="I_TerminalOperations.*" />
+          <option name="PATTERN" value="Questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConvertIntoBinary" />
         <item itemvalue="Application.F_Grouping" />
         <item itemvalue="Application.E_SummingAveraging" />
         <item itemvalue="Application.D_MaxByMinBy" />
         <item itemvalue="Application.C_Mapping" />
-        <item itemvalue="Application.B_Counting" />
       </list>
     </recent_temporary>
   </component>
