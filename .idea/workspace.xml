@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/G_MinByMaxBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I_TerminalOperations/H_PartitioningBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/J_ParallelStream/A_Parallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/J_ParallelStream/B_ParallelStreamsEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/J_ParallelStream/C_ParallelStreamNotUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/J_ParallelStream/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/J_ParallelStream/SumClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/K_Optional/A_OptionalEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/K_Optional/B_OfEmptyNullable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/K_Optional/C_OptionalOrElseOrElseGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/K_Optional/D_OptionalPresentEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/K_Optional/E_OptionalMapFilterFlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/GenerateRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -59,20 +50,7 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="B_OfEmptyNullable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="K_Optional.B_OfEmptyNullable" />
-      <module name="Functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="K_Optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GenerateRandom">
     <configuration name="C_OptionalOrElseOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="K_Optional.C_OptionalOrElseOrElseGet" />
       <module name="Functional-programming" />
@@ -99,19 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Functional-programming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.SumClient" />
+    <configuration name="E_OptionalMapFilterFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="K_Optional.E_OptionalMapFilterFlatMap" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="J_ParallelStream.*" />
+          <option name="PATTERN" value="K_Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +90,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenerateRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Questions.GenerateRandom" />
+      <module name="Functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Functional-programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateRandom" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.E_OptionalMapFilterFlatMap" />
         <item itemvalue="Application.D_OptionalPresentEx" />
         <item itemvalue="Application.C_OptionalOrElseOrElseGet" />
-        <item itemvalue="Application.B_OfEmptyNullable" />
-        <item itemvalue="Application.SumClient" />
       </list>
     </recent_temporary>
   </component>

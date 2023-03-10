@@ -4,11 +4,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<String> list = new ArrayList<>();
-        String s = 1+"/"+2;
-        list.add(s);
-        if(list.contains(s))
-            System.out.println("contains");
-
+        System.out.println(getRandomNumber(1,1));
+    }
+    public static int getRandomNumber(int min, int max) {
+        return (int) ((Math.random() * (max - min)) + min);
     }
 }
