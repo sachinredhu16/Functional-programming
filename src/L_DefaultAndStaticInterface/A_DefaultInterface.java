@@ -2,6 +2,7 @@ package L_DefaultAndStaticInterface;
 
 import java.util.*;
 
+
 class LengthComparator implements Comparator<String>{
 
     // for ascending order
@@ -13,6 +14,7 @@ class LengthComparator implements Comparator<String>{
             return -1;
         return 0;
     }
+
 }
 
 public class A_DefaultInterface {
