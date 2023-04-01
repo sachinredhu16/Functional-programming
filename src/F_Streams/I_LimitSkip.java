@@ -20,6 +20,6 @@ public class I_LimitSkip {
 
         System.out.println("Sum using limit is : "+usingLimit(list,4));
 
-        System.out.println("Sum using limit is : "+usingSkip(list,4));
+        System.out.println("Sum using skip is : "+usingSkip(list,4));
     }
 }
