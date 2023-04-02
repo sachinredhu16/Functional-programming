@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/B_Lamdbas/RestrictionLambdas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Questions/EvenOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Questions/BalancedString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/F_Streams/I_LimitSkip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/I_LimitSkip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/F_Streams/J_Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/J_Match.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +49,9 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.J_Match">
-    <configuration name="EvenOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Questions.EvenOddNumbers" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Questions.BalancedString" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
@@ -105,26 +102,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Questions.MaxElement" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BalancedString" />
         <item itemvalue="Application.J_Match" />
         <item itemvalue="Application.K_FindFirstAny" />
         <item itemvalue="Application.I_LimitSkip" />
-        <item itemvalue="Application.EvenOddNumbers" />
-        <item itemvalue="Application.MaxElement" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +145,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/F_Streams/J_Match.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
