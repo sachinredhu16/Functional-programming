@@ -18,6 +18,8 @@ public class E_SummingAveraging {
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2,3,4);
+        int sum = list.stream().reduce(0,(a,b)->a+b);
+        System.out.println("Sum is : "+sum);
 
         System.out.println("Sum is : "+sumOfList(list));
         System.out.println("Avg is : "+avgOfList(list));

@@ -18,7 +18,14 @@ public class C_Mapping {
 
         Set<String> set = StudentDataBase.getAllStudents().stream()
                 .collect(mapping(Student::getName,toSet()));
+        System.out.println("using mapping  is : "+set);
 
-        System.out.println("Set is : "+set);
+        Set<String> usingMap = StudentDataBase.getAllStudents().stream()
+                        .map(Student::getName)
+                                .collect(toSet());
+        System.out.println("usingMap is : "+usingMap);
+
+
+
     }
 }

@@ -22,8 +22,13 @@ public class D_MaxByMinBy {
         return StudentDataBase.getAllStudents().stream()
                 .collect(Collectors.minBy(Comparator.comparing(Student::getGpa)));
     }
+
+    //without using terminina
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2,3,4,5,6,7);
+        Optional<Integer> max = list.stream().max(Comparator.comparing(Integer::intValue));
+        System.out.println(max.get());
+
 
         System.out.println("Max is : "+max().get());
         System.out.println("Min is : "+min().get());

@@ -14,12 +14,16 @@ public class OfIterateGenerate {
         // iterate
         Stream.iterate(1,x->x*2)
                 .limit(10)
-                .forEach(System.out::println);
+                .forEach(s-> System.out.print(s+" "));
+
+        System.out.println();
 
         // Generate
         Supplier<Integer> supp = new Random()::nextInt;
         Stream.generate(supp)
                 .limit(10)
-                .forEach(System.out::print);
+                .forEach(s-> System.out.print(s+" "));
+
+
     }
 }

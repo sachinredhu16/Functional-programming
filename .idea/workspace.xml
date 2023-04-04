@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Questions/BalancedString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/F_Streams/J_Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/J_Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/G_FactoryMethods/OfIterateGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/G_FactoryMethods/OfIterateGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/C_Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/C_Mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/D_MaxByMinBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/D_MaxByMinBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/E_SummingAveraging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/E_SummingAveraging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/L_DefaultAndStaticInterface/Multiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L_DefaultAndStaticInterface/Multiplier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/StudentDataBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +56,13 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BalancedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Questions.BalancedString" />
+  <component name="RunManager" selected="Application.MultiplierClient">
+    <configuration name="A_Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.A_Parallel" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Questions.*" />
+          <option name="PATTERN" value="J_ParallelStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="I_LimitSkip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="F_Streams.I_LimitSkip" />
+    <configuration name="B_ParallelStreamsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.B_ParallelStreamsEx" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="F_Streams.*" />
+          <option name="PATTERN" value="J_ParallelStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="J_Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="F_Streams.J_Match" />
+    <configuration name="D_OptionalPresentEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="K_Optional.D_OptionalPresentEx" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="F_Streams.*" />
+          <option name="PATTERN" value="K_Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="K_FindFirstAny" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="F_Streams.K_FindFirstAny" />
+    <configuration name="MultiplierClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L_DefaultAndStaticInterface.MultiplierClient" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="F_Streams.*" />
+          <option name="PATTERN" value="L_DefaultAndStaticInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,20 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="SumClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.SumClient" />
       <module name="Functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="J_ParallelStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BalancedString" />
-        <item itemvalue="Application.J_Match" />
-        <item itemvalue="Application.K_FindFirstAny" />
-        <item itemvalue="Application.I_LimitSkip" />
+        <item itemvalue="Application.MultiplierClient" />
+        <item itemvalue="Application.D_OptionalPresentEx" />
+        <item itemvalue="Application.SumClient" />
+        <item itemvalue="Application.B_ParallelStreamsEx" />
+        <item itemvalue="Application.A_Parallel" />
       </list>
     </recent_temporary>
   </component>
@@ -151,15 +164,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/F_Streams/J_Match.java</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/I_TerminalOperations/A_Joining.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

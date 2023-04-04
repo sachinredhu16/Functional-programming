@@ -4,14 +4,16 @@ import data.Student;
 import data.StudentDataBase;
 
 import java.util.List;
+import java.util.function.Predicate;
 
 public class J_Match {
 
+    static Predicate<Student> pred = s -> s.getGradeLevel()>0;
     public static boolean allMatch(){
         List<Student> list = StudentDataBase.getAllStudents();
         System.out.println(list);
         return list.stream()
-                .allMatch(s -> s.getGpa()>=5.0);
+                .allMatch(pred);
     }
     public static boolean anyMatch(){
         return StudentDataBase.getAllStudents().stream()
