@@ -7,7 +7,7 @@ public class F_Period {
     public static void main(String[] args) {
         // Period is a Date-based representation of Time
         LocalDate localDate = LocalDate.now();
-        LocalDate localDate1 = localDate.withDayOfMonth(10);
+        LocalDate localDate1 = localDate.withDayOfMonth(20);
 
         Period period = Period.between(localDate,localDate1);
         Period period1 = localDate.until(localDate1);

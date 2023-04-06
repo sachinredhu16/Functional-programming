@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/F_Streams/J_Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Streams/J_Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/G_FactoryMethods/OfIterateGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/G_FactoryMethods/OfIterateGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/C_Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/C_Mapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/D_MaxByMinBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/D_MaxByMinBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/E_SummingAveraging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/E_SummingAveraging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L_DefaultAndStaticInterface/Multiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L_DefaultAndStaticInterface/Multiplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/StudentDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M_DateTime/B_LocalDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M_DateTime/B_LocalDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M_DateTime/C_LocalTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M_DateTime/C_LocalTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M_DateTime/D_LocalDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M_DateTime/D_LocalDateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M_DateTime/F_Period.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M_DateTime/F_Period.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +51,13 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiplierClient">
-    <configuration name="A_Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.A_Parallel" />
+  <component name="RunManager" selected="Application.I_ZonedDateTime">
+    <configuration name="B_LocalDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_DateTime.B_LocalDate" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="J_ParallelStream.*" />
+          <option name="PATTERN" value="M_DateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_ParallelStreamsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.B_ParallelStreamsEx" />
+    <configuration name="C_LocalTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_DateTime.C_LocalTime" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="J_ParallelStream.*" />
+          <option name="PATTERN" value="M_DateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D_OptionalPresentEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="K_Optional.D_OptionalPresentEx" />
+    <configuration name="F_Period" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_DateTime.F_Period" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="K_Optional.*" />
+          <option name="PATTERN" value="M_DateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplierClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L_DefaultAndStaticInterface.MultiplierClient" />
+    <configuration name="H_Instant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_DateTime.H_Instant" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="L_DefaultAndStaticInterface.*" />
+          <option name="PATTERN" value="M_DateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.SumClient" />
+    <configuration name="I_ZonedDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_DateTime.I_ZonedDateTime" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="J_ParallelStream.*" />
+          <option name="PATTERN" value="M_DateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiplierClient" />
-        <item itemvalue="Application.D_OptionalPresentEx" />
-        <item itemvalue="Application.SumClient" />
-        <item itemvalue="Application.B_ParallelStreamsEx" />
-        <item itemvalue="Application.A_Parallel" />
+        <item itemvalue="Application.I_ZonedDateTime" />
+        <item itemvalue="Application.H_Instant" />
+        <item itemvalue="Application.F_Period" />
+        <item itemvalue="Application.C_LocalTime" />
+        <item itemvalue="Application.B_LocalDate" />
       </list>
     </recent_temporary>
   </component>

@@ -28,5 +28,9 @@ public class C_LocalTime {
 
         System.out.println("with : "+localTime.withHour(2));
         System.out.println("with MIDNIGHT  : "+localTime.with(LocalTime.MIDNIGHT));
+
+        // isSupported
+        System.out.println("isSupported : "+localTime.isSupported(ChronoUnit.DAYS));
+
     }
 }

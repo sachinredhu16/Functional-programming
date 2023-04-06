@@ -46,7 +46,7 @@ public class B_LocalDate {
         System.out.println("Is before : "+localDate.isAfter(    LocalDate.now().minusMonths(1)));
 
         // unSupported
-//        System.out.println("Date with time : "+localDate.minus(1,ChronoUnit.MINUTES));
+        System.out.println("Date with time : "+localDate.minus(1,ChronoUnit.MINUTES));
         System.out.println("isSupported : "+localDate.isSupported(ChronoUnit.MINUTES));
     }
 }
