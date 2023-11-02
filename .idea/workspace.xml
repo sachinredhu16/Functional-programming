@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Questions/BasicFp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question1/A_EvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question1/B_FindPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question1/C_findDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/C_Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/C_Mapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/F_Grouping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I_TerminalOperations/H_PartitioningBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_TerminalOperations/H_PartitioningBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/J_ParallelStream/SumClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/J_ParallelStream/SumClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Questions/NthHighest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Questions/NthHighest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +50,13 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.H_PartitioningBy">
-    <configuration name="C_Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_TerminalOperations.C_Mapping" />
+  <component name="RunManager" selected="Application.C_findDuplicates">
+    <configuration name="A_EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question1.A_EvenNumbers" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="I_TerminalOperations.*" />
+          <option name="PATTERN" value="Question1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_OptionalOrElseOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="K_Optional.C_OptionalOrElseOrElseGet" />
+    <configuration name="B_FindPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question1.B_FindPrefix" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="K_Optional.*" />
+          <option name="PATTERN" value="Question1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_ParallelStreamNotUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_ParallelStream.C_ParallelStreamNotUse" />
+    <configuration name="C_findDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question1.C_findDuplicates" />
       <module name="Functional-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="J_ParallelStream.*" />
+          <option name="PATTERN" value="Question1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C_findDuplicates" />
+        <item itemvalue="Application.B_FindPrefix" />
+        <item itemvalue="Application.A_EvenNumbers" />
         <item itemvalue="Application.H_PartitioningBy" />
         <item itemvalue="Application.F_Grouping" />
-        <item itemvalue="Application.C_Mapping" />
-        <item itemvalue="Application.C_OptionalOrElseOrElseGet" />
-        <item itemvalue="Application.C_ParallelStreamNotUse" />
       </list>
     </recent_temporary>
   </component>
