@@ -10,6 +10,7 @@ public class SumClient {
                 .parallel()
                 .forEach(sum::doAdd);
 
+
 //      when you are performing an operation on mutable object
 //      1. always use seq. it will give you correct result
 //      2. Don't use parallel it will give you diff in all execution

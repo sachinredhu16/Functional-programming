@@ -30,7 +30,7 @@ public class H_PartitioningBy {
     }
 
     public static void main(String[] args) {
-//        partitioningBy1();
+        partitioningBy1();
         partitioningBy2();
     }
 }

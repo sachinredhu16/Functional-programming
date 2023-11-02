@@ -1,6 +1,7 @@
 import java.lang.ref.WeakReference;
 import java.util.*;
 import java.util.function.IntConsumer;
+import java.util.stream.Collectors;
 
 
 public class Main {
@@ -17,9 +18,18 @@ public class Main {
         return i==a.length();
     }
     public static void main(String[] args) {
-        String s =  "sachin";
-        String ch ="son";
-        System.out.println(isSubSequence(ch,s));
+        List<String> words = new ArrayList<>();
+        words.add("one.two.three");
+        words.add("four.five");
+        words.add("six");
+        List<String> ans = new ArrayList<>();
+        for(int i=0;i<words.size();i++){
+            String[] arr = words.get(i).split("\\.");
+            for(String s :arr){
+                ans.add(s);
+                System.out.println(s);
+            }
+        }
 
     }
    }

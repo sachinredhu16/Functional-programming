@@ -43,17 +43,17 @@ public class F_Grouping {
     }
     public static void main(String[] args) {
 
-//        System.out.println("GroupBy Gender is : "+groupingByGender());
-//        System.out.println("GroupBy GPA is : "+customizedGroupingByGPA());
+        System.out.println("GroupBy Gender is : "+groupingByGender());
+        System.out.println("GroupBy GPA is : "+customizedGroupingByGPA());
 
-//        twoLevelGrouping1();
+        twoLevelGrouping1();
         twoLevelGrouping2();
-//        threeLevelGrouping();
+        threeLevelGrouping();
 
         List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
         Map<String,List<Integer>> map = list.stream()
                 .collect(groupingBy(a->a%2==0?"Divisible by 2":"Not divisible by 2"));
-//        System.out.println(map);
+        System.out.println(map);
 
     }
 }
