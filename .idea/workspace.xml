@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf422e0e-ce68-4f91-80c6-b5383eb11905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Question1/D_CountFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Question1/E_ReverseSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Question1/F_AddPrefixSuffix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Question1/H_NonRepeatedChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Question1/I_RepeatedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Question1/J_StartWith.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question1/findFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question1/G_MaxElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +49,7 @@
       <recent name="D:\Java DSA\Functional-programming\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.I_RepeatedChar">
-    <configuration name="E_ReverseSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question1.E_ReverseSort" />
-      <module name="Functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Question1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="F_AddPrefixSuffix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question1.F_AddPrefixSuffix" />
-      <module name="Functional-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Question1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.J_StartWith">
     <configuration name="H_NonRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Question1.H_NonRepeatedChar" />
       <module name="Functional-programming" />
@@ -106,6 +76,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="J_StartWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question1.J_StartWith" />
+      <module name="Functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Question1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Functional-programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Questions.MaxElement" />
       <module name="Functional-programming" />
@@ -121,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.J_StartWith" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.I_RepeatedChar" />
         <item itemvalue="Application.H_NonRepeatedChar" />
         <item itemvalue="Application.MaxElement" />
-        <item itemvalue="Application.F_AddPrefixSuffix" />
-        <item itemvalue="Application.E_ReverseSort" />
       </list>
     </recent_temporary>
   </component>
