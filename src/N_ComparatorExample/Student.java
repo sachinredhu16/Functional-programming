@@ -1,6 +1,6 @@
 package N_ComparatorExample;
 
-public class Student {
+public class Student implements Comparable<Student> {
     public int id ;
     public int age ;
 
@@ -22,5 +22,11 @@ public class Student {
         this.age = age;
         this.name = name;
         this.address = address;
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        System.out.println(o.id+"====="+this.id);
+        return o.id-this.id;
     }
 }

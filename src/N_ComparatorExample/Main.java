@@ -14,6 +14,7 @@ public class Main {
         list.add(new Student(3,30,"Yogesh",new Address(101,"Sector 11","Jind")));
 
         List<Student> collect = (List<Student>) list.stream().sorted(comp).map(x -> (Student) x).collect(Collectors.toList());
+        List<Student> collect2 = (List<Student>) list.stream().sorted().map(x -> (Student) x).collect(Collectors.toList());
 
         List<Student> collect1 = (List<Student>) list.stream().sorted((a,b)->(b.address.flatNo-a.address.flatNo)).map(x -> (Student) x).collect(Collectors.toList());
 
